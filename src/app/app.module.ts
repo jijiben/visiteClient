@@ -1,3 +1,4 @@
+import { PlanningComponent } from './planning/planning.component';
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { RouterModule } from '@angular/router';
@@ -23,6 +24,7 @@ import { UpgradeComponent }   from './upgrade/upgrade.component';
   declarations: [
     AppComponent,
     DashboardComponent,
+    PlanningComponent,
     UserComponent,
     TableComponent,
     TypographyComponent,
