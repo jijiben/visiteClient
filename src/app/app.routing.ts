@@ -1,3 +1,4 @@
+import { PlannifierComponent } from './plannifier/plannifier.component';
 import { PlanningComponent } from './planning/planning.component';
 import { Routes } from '@angular/router';
 
@@ -23,6 +24,10 @@ export const AppRoutes: Routes = [
     {
         path: 'planning',
         component: PlanningComponent
+    },
+    {
+        path: 'plannifier',
+        component: PlannifierComponent
     },
     {
         path: 'user',
