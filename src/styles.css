@@ -1,1 +1,9 @@
 /* You can add global styles to this file, and also import other style files */
+@import "../node_modules/bootstrap/dist/css/bootstrap.css";
+@import "./app/administration/admin-search.css";
+@import "./app/interlocuteur/intelocuteur-table.css";
+
+
+@import url("https://fonts.googleapis.com/css?family=Roboto|Varela+Round");
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons");
+@import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");

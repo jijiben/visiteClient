@@ -3,12 +3,12 @@ import { Component } from '@angular/core';
 declare var $:any;
 
 @Component({
-    selector: 'Plannifier-cmp',
+    selector: 'Visite-cmp',
     moduleId: module.id,
-    templateUrl: 'Plannifier.component.html'
+    templateUrl: 'Visite.component.html'
 })
 
-export class PlannifierComponent{
+export class VisiteComponent{
     showNotification(from, align){
         var type = ['','info','success','warning','danger'];
 

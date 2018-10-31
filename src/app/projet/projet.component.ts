@@ -3,12 +3,12 @@ import { Component } from '@angular/core';
 declare var $:any;
 
 @Component({
-    selector: 'planning-cmp',
+    selector: 'Projet-cmp',
     moduleId: module.id,
-    templateUrl: 'planning.component.html'
+    templateUrl: 'Projet.component.html'
 })
 
-export class PlanningComponent{
+export class ProjetComponent{
     showNotification(from, align){
         var type = ['','info','success','warning','danger'];
 

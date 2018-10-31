@@ -1,0 +1,184 @@
+<div class="container-fluid">
+    <div class="row">
+
+        <div class="card">
+            <div class="header">
+                <h4 class="title">Ajouter projet</h4>
+            </div>
+            <div class="content">
+                <form>
+                    <div class="row">
+                        <!-- <div class="col-md-5">
+                            <div class="form-group">
+                                <label>Company du client</label>
+                                <input type="text" class="form-control border-input" disabled placeholder="Company"
+                                    value="Creative Code Inc.">
+                            </div>
+                        </div> -->
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label>Nom du projet</label>
+                                <input type="text" class="form-control border-input" placeholder="" value="Engie">
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label>Upload logo du projet</label>
+                                <input type="text" class="form-control border-input" placeholder="" value="ajouter logo">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="form-group">
+                                <label>Nom du client</label>
+                                <input type="text" class="form-control border-input" placeholder="Nom du client">
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="form-group">
+                                <label for="exampleInputEmail1">Email address</label>
+                                <input type="email" class="form-control border-input" placeholder="Email">
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="form-group">
+                                <label for="exampleInputEmail1">Numero de telephone</label>
+                                <input type="number" class="form-control border-input" placeholder="Numero de telephone">
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="row">
+                        <!-- <div class="col-md-4">
+                            <div class="form-group">
+                                <label>Nom du chef de projet</label>
+                                <input type="text" class="form-control border-input" placeholder="">
+                            </div>
+                        </div> -->
+                        <div class="form-group col-md-4">
+                            <label for="inputState" class="border-input">Interlocuteurs</label>
+                            <select id="inputState" class="border-input form-control" multiple>
+                                <option selected class="border-input">Selectionner les interlocuteurs</option>
+                                <option class="border-input">Monsieur X </option>
+                                <option class="border-input">Monsieur Y</option>
+                                <option class="border-input">Madame B</option>
+                            </select>
+                        </div>
+
+                        <!-- <div class="col-md-4">
+
+                            <table [mfData]="utilisateur | costumpipe: {nom: searchText,prenom:searchText}" #mf="mfDataTable"
+                                [mfRowsOnPage]="6" multiple>
+                                <div class="dropdown">
+                                    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton"
+                                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        <input [(ngModel)]="searchText" placeholder="Recherche par nom, prenom">
+                                    </button>
+                                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                        <a class="dropdown-item" *ngFor="let util of mf.data ; index as i">{{util.nom}}
+                                            {{util.prenom}} </a>
+                                    </div>
+                                </div>
+                            </table>
+
+                        </div> -->
+
+                        <!-- <div class="col-md-6">
+                            <div class="form-group">
+                                <label>Prenom</label>
+                                <input type="text" class="form-control border-input" placeholder="Prenom du client">
+                            </div>
+                        </div> -->
+                        <div class="col-md-4">
+                            <div class="form-group">
+                                <label>Nombre des ressources</label>
+                                <input type="number" class="form-control border-input" placeholder="">
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                    <div class="row">
+                        <!--   <div class="col-md-4">
+                                    <div class="form-group">
+                                        <label>N° shore</label>
+                                        <input  type ="number" pattern="[A-Za-z]{1}" class="form-control border-input" placeholder="">
+                                    </div>
+                                </div> -->
+
+
+                        <!-- <div class="col-md-4">
+                            <div class="input-group-prepend form-group">
+                                <span class="input-group-text" id="">N° shore</span>
+
+                            </div>
+                            <input type="number" class="form-control border-input">
+                            <input type="text" class="form-control border-input">
+                        </div> -->
+                        <!-- 
+                        <div class="input-group">
+                                <div class="input-group-prepend">
+                                  <span class="input-group-text" id="">First and last name</span>
+                                </div>
+                                <input type="number" class="form-control">
+                                <input type="text" class="form-control">
+                              </div> -->
+
+
+                        <div class="col-md-3">
+                            <label for="inputState" class="border-input">N° shore</label>
+                            <select id="inputState" class="border-input form-control">
+                                <option selected class="border-input">Selectionner le shore</option>
+                                <option class="border-input">Shore 8 A</option>
+                                <option class="border-input">Shore 8 B</option>
+                                <option class="border-input">Shore 16</option>
+                            </select>
+                        </div>
+
+
+
+                        <div class="col-md-3">
+                            <div class="form-group">
+                                <label>Etage</label>
+                                <input type="number" class="form-control border-input" placeholder="Etage">
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="form-group">
+                                <label>Plateau</label>
+                                <input type="text" class="form-control border-input" placeholder="Plateau">
+                            </div>
+                        </div>
+
+                        <div class="col-md-3">
+                            <div class="form-group">
+                                <label>N° U</label>
+                                <input type="number" class="form-control border-input" placeholder="Numero du U occupé">
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="form-group">
+                                <label>Description</label>
+                                <textarea rows="5" class="form-control border-input" placeholder="Decrire le projet.."
+                                    value="Mike"></textarea>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="text-center">
+                        <button type="submit" class="btn btn-info btn-fill btn-wd">Valider</button>
+                    </div>
+                    <div class="clearfix"></div>
+                </form>
+            </div>
+
+
+        </div>
+    </div>
+</div>

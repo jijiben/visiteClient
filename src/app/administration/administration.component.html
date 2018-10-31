@@ -1,0 +1,64 @@
+<div class="container-fluid">
+    <div class="row">
+
+        <div class="card">
+            <div class="header">
+                <h4 class="title">Affecter un role au interlocuteur</h4>
+            </div>
+            <div class="content">
+                <div class="container">
+                    <div class="row searchFilter">
+                        <div class="col-sm-12">
+                            <div class="input-group">
+                                <input id="table_filter" type="text" class="form-control" aria-label="Text input with segmented button dropdown"
+                                    placeholder="Chercher..." style="height: 40px;">
+                                <div class="input-group-btn">
+                                    <button type="button" class="btn btn-secondary dropdown-toggle dropdown-toggle-split"
+                                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span class="label-icon">Filtre</span>
+                                        <span class="caret">&nbsp;</span></button>
+                                    <div class="dropdown-menu dropdown-menu-right">
+                                        <ul class="category_filters">
+                                            <li>
+                                                <input class="cat_type category-input" data-label="All" id="all" value=""
+                                                    name="radios" type="radio"><label for="all">Tout</label>
+                                            </li>
+                                            <li>
+                                                <input type="radio" name="radios" id="Design" value="Nom"><label class="category-label"
+                                                    for="Nom">Nom</label>
+                                            </li>
+                                            <li>
+                                                <input type="radio" name="radios" id="Marketing" value="Prenom"><label
+                                                    class="category-label" for="Prenom">Prenom</label>
+                                            </li>
+                                            <li>
+                                                <input type="radio" name="radios" id="Programming" value="Email"><label
+                                                    class="category-label" for="Email">Email</label>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <button id="searchBtn" type="button" class="btn btn-secondary btn-search"><span
+                                            class="glyphicon glyphicon-search">&nbsp;</span> <span class="label-icon">Recherche</span></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="dropdown">
+                        <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Affecter
+                            Role
+                            <span class="caret"></span></button>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Presentant</a></li>
+                            <li><a href="#">Guide</a></li>
+                        </ul>
+                    </div>
+                    <br>
+
+                    <div> <input type="submit" class="btn btn-info" value="Soumettre">
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

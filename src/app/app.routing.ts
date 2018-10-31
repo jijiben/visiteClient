@@ -1,5 +1,8 @@
-import { PlannifierComponent } from './plannifier/plannifier.component';
-import { PlanningComponent } from './planning/planning.component';
+import { AdministrationComponent } from './administration/administration.component';
+import { ParametrageComponent } from './parametrage/parametrage.component';
+import { VisiteComponent } from './visite/visite.component';
+import { InterlocuteurComponent } from './interlocuteur/interlocuteur.component';
+import { ProjetComponent } from './projet/projet.component';
 import { Routes } from '@angular/router';
 
 import { DashboardComponent }   from './dashboard/dashboard.component';
@@ -21,13 +24,29 @@ export const AppRoutes: Routes = [
         path: 'dashboard',
         component: DashboardComponent
     },
+   
     {
-        path: 'planning',
-        component: PlanningComponent
+        path: 'interlocuteur',
+        component: InterlocuteurComponent
+    },
+   
+    {
+        path: 'administration',
+        component: AdministrationComponent
+        
     },
     {
-        path: 'plannifier',
-        component: PlannifierComponent
+        path: 'visite',
+        component: VisiteComponent
+    },
+    
+    {
+        path: 'parametrage',
+        component: ParametrageComponent
+    },
+    {
+        path: 'projet',
+        component: ProjetComponent
     },
     {
         path: 'user',
