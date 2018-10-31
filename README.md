@@ -1,4 +1,4 @@
-# presnetation du projet : Visite client
+# presentation du projet : Visite client
 
 Ce projet à pour but de faire une visite digital au client; lui conferer une application qui lui presentera les projet selon son localisation traque par des estimote.
 
